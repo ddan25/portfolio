@@ -19,7 +19,24 @@ const styles = {
 function Navbar() {
   return (
     <div style={styles.card}>
-      <div style={styles.heading}>Home</div>
+      <div style={styles.heading}>Peter Ortiz</div>
+      {/* <Router>
+        <nav>
+          <ul>
+            <li><Link to="/about">About Me</Link></li>
+            <li><Link to="/portfolio">Portfolio</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/resume">Resume</Link></li>
+          </ul>
+        </nav>
+
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
+      </Router> */}
     </div>
   );
 }
