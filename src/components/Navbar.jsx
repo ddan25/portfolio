@@ -1,42 +1,80 @@
-// We declare an object called styles that will contain a few objects for card and heading styles
-// Notice that each key lists CSS styles in camel case
+import { useState } from 'react';
+
+// Object to hold styles
 const styles = {
   card: {
-    margin: 20,
-    background: '#e8eaf6',
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: '10px 20px',
+    backgroundColor: '#333',
+    color: 'white',
   },
   heading: {
-    background: '#9a74db',
-    minHeight: 50,
-    lineHeight: 3.5,
-    fontSize: '1.2rem',
-    color: 'white',
-    padding: '0 20px',
+    fontSize: '20px',
+    fontWeight: 'bold',
+    flexGrow: '1',
   },
+  buttonContainer: {
+    display: 'flex',
+  },
+  button: (isHovered) => ({
+    padding: '10px 15px',
+    backgroundColor: isHovered ? '#555' : '#444',  // Change color on hover
+    border: 'none',
+    color: 'white',
+    marginRight: '15px',
+    cursor: 'pointer',
+    borderRadius: '5px',
+    transition: 'background-color 0.3s',
+  }),
 };
 
-// In Navbar, we can assign a style from an object by using curly braces
 function Navbar() {
+  const [hoveredButton, setHoveredButton] = useState(null);
+
+  const handleClick = (buttonName) => {
+    console.log(`${buttonName} clicked!`);
+  };
+
+  // Handle mouse hover events
+  const handleMouseEnter = (buttonName) => {
+    setHoveredButton(buttonName);
+  };
+
+  const handleMouseLeave = () => {
+    setHoveredButton(null);
+  };
+
   return (
     <div style={styles.card}>
       <div style={styles.heading}>Peter Ortiz</div>
-      {/* <Router>
-        <nav>
-          <ul>
-            <li><Link to="/about">About Me</Link></li>
-            <li><Link to="/portfolio">Portfolio</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
-            <li><Link to="/resume">Resume</Link></li>
-          </ul>
-        </nav>
-
-        <Routes>
-          <Route path="/about" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/resume" element={<Resume />} />
-        </Routes>
-      </Router> */}
+      <div style={styles.buttonContainer}>
+        <button
+          style={styles.button(hoveredButton === 'Home')}
+          onClick={() => handleClick('Home')}
+          onMouseEnter={() => handleMouseEnter('Home')}
+          onMouseLeave={handleMouseLeave}
+        >
+          Home
+        </button>
+        <button
+          style={styles.button(hoveredButton === 'Portfolio')}
+          onClick={() => handleClick('Portfolio')}
+          onMouseEnter={() => handleMouseEnter('Portfolio')}
+          onMouseLeave={handleMouseLeave}
+        >
+          Portfolio
+        </button>
+        <button
+          style={styles.button(hoveredButton === 'Resume')}
+          onClick={() => handleClick('Resume')}
+          onMouseEnter={() => handleMouseEnter('Resume')}
+          onMouseLeave={handleMouseLeave}
+        >
+          Resume
+        </button>
+      </div>
     </div>
   );
 }

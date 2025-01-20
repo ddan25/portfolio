@@ -6,15 +6,24 @@ const styles = {
     background: '#e8eaf6',
   },
   heading: {
-    background: '#3f51b5',
+    background: '#333',
     minHeight: 50,
     lineHeight: 3.5,
     fontSize: '1.2rem',
     color: 'white',
     padding: '0 20px',
+    textAlign: 'center', // This will center the text horizontally
+    display: 'flex',      // Enable flexbox
+    justifyContent: 'center', // Center content horizontally with flexbox
+    alignItems: 'center', // Center content vertically with flexbox
   },
   content: {
     padding: 20,
+  },
+  image: {
+    display: 'flex',      // Enable flexbox
+    justifyContent: 'center', // Center content horizontally with flexbox
+    alignItems: 'center', // Center content vertically with flexbox
   },
 };
 
@@ -24,8 +33,13 @@ function Card() {
   return (
     <div style={styles.card}>
       <div style={styles.heading}>About Me</div>
+      <img
+        src="https://via.placeholder.com/150" // URL of the image
+        alt="Profile"
+        style={styles.image} // Optional: use style to adjust the image
+      />
       <div style={styles.content}>
-        `Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
         illo inventore veritatis et quasi architecto beatae vitae dicta sunt
         explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
@@ -37,7 +51,7 @@ function Card() {
         corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
         Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
         quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
-        voluptas nulla pariatur?`
+        voluptas nulla pariatur?
       </div>
     </div>
   );
