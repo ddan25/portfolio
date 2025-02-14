@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { useNavigate } from "react-router-dom";
+
 
 // Object to hold styles
 const styles = {
@@ -33,7 +35,10 @@ const styles = {
 function Navbar() {
   const [hoveredButton, setHoveredButton] = useState(null);
 
+  const navigate = useNavigate();
+
   const handleClick = (buttonName) => {
+    navigate(`/${buttonName}`);
     console.log(`${buttonName} clicked!`);
   };
 
