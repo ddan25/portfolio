@@ -17,6 +17,7 @@ function App() {
       <Header theme={theme} toggleTheme={toggleTheme} />  {/* Rendering a header component */}
       <Router>
         <Routes>
+          <Route path="/" element={<Home />} /> {/* Route to HomePage */}
           <Route path="/home" element={<Home />} /> {/* Route to HomePage */}
           <Route path="/portfolio" element={<Portfolio />} /> {/* Route to AboutPage */}
           <Route path="/resume" element={<Resume />} /> {/* Route to AboutPage */}
