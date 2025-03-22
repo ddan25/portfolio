@@ -39,19 +39,17 @@ function Card() {
         style={styles.image} // Optional: use style to adjust the image
       />
       <div style={styles.content}>
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-        odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
-        quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
-        eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-        voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam
-        corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
-        quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
-        voluptas nulla pariatur?
+        Hi, I'm Peter Ortiz
+        I’m a passionate software developer with a focus on building seamless user experiences. I specialize in web development, with a strong interest in front-end technologies like React, JavaScript, and CSS. I love creating beautiful, functional websites that users enjoy interacting with.
+
+        What Drives Me
+        I’m motivated by solving problems and finding the best possible solutions to complex challenges. The tech world is constantly evolving, and I love keeping up with the latest trends and pushing myself to be better every day.
+
+        Projects and Interests
+        Outside of work, I’m passionate about contributing to open-source projects. You can find some of my work on GitHub. When I’m not coding, I’m either hiking in the mountains or reading the latest sci-fi novel.
+
+        Let’s Connect
+        Feel free to reach out if you’d like to collaborate, talk about tech, or just connect! You can find me on LinkedIn/Twitter or email me at Your Email.
       </div>
     </div>
   );

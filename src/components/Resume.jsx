@@ -53,8 +53,8 @@ function Resume() {
 
         <h2>Education</h2>
         <p>Software Development Boot Camp, University of California, Irvine (2024)</p>
-        <p>Associates of Arts, Chaffey College (2023)</p>
         <p>Bachelors of Arts in Progress, California State University of Los Angeles (2023 - Present)</p>
+        <p>Associates of Arts, Chaffey College (2023)</p>
 
 
         <h2>Work History</h2>
