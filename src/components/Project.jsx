@@ -6,8 +6,8 @@ const Projects = () => {
     { title: 'Candidate Search', description: 'Search github for candidates', link: 'https://github.com/ddan25/candidateSearch' },
     { title: 'Weather Dashboard', description: 'Look up the weather in your city', link: 'https://github.com/ddan25/Weather-Dashboard' },
     { title: 'Kanban', description: 'Assign tasks to team members and mark as in progress or completed', link: 'https://github.com/ddan25/kanban' },
-    { title: 'Vinyl Vault', description: 'Music search and comment', link: 'https://github.com/larimae/vinyl-vault' },
-    { title: 'RestStar', description: 'Restaurant POS system with invoice', link: 'https://github.com/khorimoore/RestStar' },
+    { title: 'Vinyl Vault', description: 'Music search and comment', link: 'https://drive.google.com/file/d/15bT9D5DmGOhhTz6WVB8dqGGuPgBPXt4o/view?usp=drive_link' },
+    { title: 'RestStar', description: 'Restaurant POS system with invoice', link: 'https://drive.google.com/file/d/19qu7exByRSlCb__17xZSl8jf8jvkr99h/view?usp=drive_link' },
     // Add more projects here
   ];
 

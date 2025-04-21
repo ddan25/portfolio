@@ -3,18 +3,11 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Re
 import Home from './components/Home';  // Importing child components
 import Portfolio from './components/Portfolio';  // Importing other pages
 import Resume from './components/Resume';
-import Header from './components/Header';  // A Header component (optional)
 
 function App() {
-  const [theme, setTheme] = useState('light');  // Example of state management
-
-  const toggleTheme = () => {
-    setTheme(prevTheme => (prevTheme === 'light' ? 'dark' : 'light'));
-  };
 
   return (
-    <div className={`App ${theme}`}>
-      <Header theme={theme} toggleTheme={toggleTheme} />  {/* Rendering a header component */}
+    <div>
       <Router>
         <Routes>
           <Route path="/" element={<Home />} /> {/* Route to HomePage */}

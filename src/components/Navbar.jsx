@@ -53,7 +53,7 @@ function Navbar() {
 
   return (
     <div style={styles.card}>
-      <div style={styles.heading}>Peter Ortiz</div>
+      <div style={styles.heading}>Peter Daniel Ortiz</div>
       <div style={styles.buttonContainer}>
         <button
           style={styles.button(hoveredButton === 'Home')}

@@ -39,17 +39,34 @@ function Card() {
         style={styles.image} // Optional: use style to adjust the image
       />
       <div style={styles.content}>
-        Hi, I'm Peter Ortiz
-        I’m a passionate software developer with a focus on building seamless user experiences. I specialize in web development, with a strong interest in front-end technologies like React, JavaScript, and CSS. I love creating beautiful, functional websites that users enjoy interacting with.
-
-        What Drives Me
-        I’m motivated by solving problems and finding the best possible solutions to complex challenges. The tech world is constantly evolving, and I love keeping up with the latest trends and pushing myself to be better every day.
-
-        Projects and Interests
-        Outside of work, I’m passionate about contributing to open-source projects. You can find some of my work on GitHub. When I’m not coding, I’m either hiking in the mountains or reading the latest sci-fi novel.
-
-        Let’s Connect
-        Feel free to reach out if you’d like to collaborate, talk about tech, or just connect! You can find me on LinkedIn/Twitter or email me at Your Email.
+        Hi, I'm Peter Daniel Ortiz
+        <br />
+        <br />
+        I’m a passionate software developer with a strong interest in building seamless, responsive web applications. I specialize in front-end technologies like React, JavaScript, and CSS, but I also love diving into back-end development using Node.js and MongoDB. My goal is to create beautiful, intuitive websites and applications that users truly enjoy interacting with.
+        <br />
+        <br />
+        <strong>What Drives Me</strong>
+        <br />
+        I’m deeply motivated by solving real-world problems through coding and continuous learning. The world of tech is ever-evolving, and I find excitement in keeping up with new trends and best practices, while pushing myself to grow as a developer.
+        <br />
+        <br />
+        <strong>Hobbies and Interests</strong>
+        <br />
+        Outside of coding, I'm an avid Los Angeles Lakers fan and a basketball enthusiast. Watching games and analyzing plays inspires me and reminds me of the importance of teamwork, strategy, and dedication—values that are just as important in programming as they are on the basketball court.
+        <br />
+        <br />
+        Another one of my passions is hiking. Whether it's a challenging mountain trail or a serene walk through the woods, I enjoy connecting with nature and getting a break from screens. Hiking helps me recharge and think creatively about my projects.
+        <br />
+        <br />
+        I also have a creative side. Drawing allows me to express my thoughts visually, and I enjoy sketching in my free time. It’s a great way to relax and experiment with new ideas.
+        <br />
+        <br />
+        Lastly, music is a big part of my life. I find that music fuels my creativity and helps me stay energized, focused and inspired throughout the day.
+        <br />
+        <br />
+        <strong>Let’s Connect</strong>
+        <br />
+        Feel free to reach out if you'd like to collaborate, chat about tech, or share ideas! You can find me on LinkedIn/Twitter, or you can email me at peterortiz97@yahoo.com.
       </div>
     </div>
   );
