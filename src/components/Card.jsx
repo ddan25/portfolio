@@ -1,5 +1,3 @@
-// We declare an object called styles that will contain a few objects for card and heading styles
-// Notice that each key lists CSS styles in camel case
 const styles = {
   card: {
     margin: 20,
@@ -12,32 +10,30 @@ const styles = {
     fontSize: '1.2rem',
     color: 'white',
     padding: '0 20px',
-    textAlign: 'center', // This will center the text horizontally
-    display: 'flex',      // Enable flexbox
-    justifyContent: 'center', // Center content horizontally with flexbox
-    alignItems: 'center', // Center content vertically with flexbox
+    textAlign: 'center',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   content: {
     padding: 20,
   },
   image: {
-    display: 'flex',      // Enable flexbox
-    justifyContent: 'center', // Center content horizontally with flexbox
-    alignItems: 'center', // Center content vertically with flexbox
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 };
 
-// In `Card`, we can assign a style from an object by using curly braces
-// We are assigning the card, heading, and content all from our `style` object
 function Card() {
   return (
     <div style={styles.card}>
       <div style={styles.heading}>About Me</div>
-      <img
-        src="https://via.placeholder.com/150" // URL of the image
+      {/* <img
+        src="https://via.placeholder.com/150"
         alt="Profile"
-        style={styles.image} // Optional: use style to adjust the image
-      />
+        style={styles.image}
+      /> */}
       <div style={styles.content}>
         Hi, I'm Peter Daniel Ortiz
         <br />
@@ -66,7 +62,7 @@ function Card() {
         <br />
         <strong>Let’s Connect</strong>
         <br />
-        Feel free to reach out if you'd like to collaborate, chat about tech, or share ideas! You can find me on LinkedIn/Twitter, or you can email me at peterortiz97@yahoo.com.
+        Feel free to reach out if you'd like to collaborate, chat about tech, or share ideas! You can find me on <a href="https://www.linkedin.com/in/peter-ortiz-8ab740339/" target="_blank" rel="noopener noreferrer">LinkedIn</a> or you can email me at peterortiz97@yahoo.com.
       </div>
     </div>
   );

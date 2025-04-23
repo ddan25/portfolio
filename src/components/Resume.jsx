@@ -4,14 +4,14 @@ import Footer from './Footer';
 
 const styles = {
   image: {
-    width: '100px', // Adjust size for cleaner look
+    width: '100px',
     height: 'auto',
-    borderRadius: '5px', // Rounded corners for images
+    borderRadius: '5px',
     marginRight: '15px',
   },
   resumeContainer: {
     maxWidth: '800px',
-    margin: '0 auto', // Center the content
+    margin: '0 auto',
     padding: '20px',
     backgroundColor: '#f9f9f9',
     borderRadius: '8px',
@@ -35,7 +35,7 @@ const styles = {
   paragraph: {
     fontSize: '16px',
     lineHeight: '1.6',
-    color: '#555',
+    color: '#2c3e50',
     marginBottom: '15px',
   },
   list: {
@@ -44,7 +44,7 @@ const styles = {
   jobContainer: {
     display: 'flex',
     marginBottom: '20px',
-    borderBottom: '1px solid #dcdcdc', // Divider between job entries
+    borderBottom: '1px solid #dcdcdc',
     paddingBottom: '20px',
   },
   jobInfo: {
@@ -59,7 +59,7 @@ const styles = {
   },
   jobLocation: {
     fontSize: '14px',
-    color: '#7f8c8d',
+    color: '#2c3e50',
     marginTop: '5px',
   },
   jobDescription: {
@@ -70,7 +70,7 @@ const styles = {
   },
   jobImage: {
     marginRight: '15px',
-    width: '80px', // Adjust size to make it visually balanced
+    width: '80px',
     height: 'auto',
   },
 };
@@ -128,6 +128,7 @@ function Resume() {
           <div style={styles.jobInfo}>
             <div>
               <h3 style={styles.jobTitle}>Weather Dashboard REST API (Back-End)</h3>
+              <p style={styles.jobLocation}><strong>Date: </strong>Nov 2024</p>
               <ul style={styles.list}>
                 <li>Built a REST API that can show you a city's weather forecast.</li>
                 <li>Used openweathermap.org API key to access weather forecast information.</li>
@@ -142,6 +143,7 @@ function Resume() {
           <div style={styles.jobInfo}>
             <div>
               <h3 style={styles.jobTitle}>Kanban REST API (Back-End) </h3>
+              <p style={styles.jobLocation}><strong>Date: </strong>Oct 2024</p>
               <ul style={styles.list}>
                 <li>Built a REST API that can assign task to team members in Todo, In Progress, and Done catorgories.</li>
                 <li>Implemented the entire login system to allow CRUD operations on the user list and user validation.</li>
@@ -156,6 +158,7 @@ function Resume() {
           <div style={styles.jobInfo}>
             <div>
               <h3 style={styles.jobTitle}>Vinyl Vault GraphQL API (Full-Stack)</h3>
+              <p style={styles.jobLocation}><strong>Date: </strong>Nov 2024</p>
               <ul style={styles.list}>
                 <li>Built a program that can search through the seeded data to find music and comment on songs.</li>
                 <li>Led a team of 4: organized meetings, delegated tasks, helped teammates debug, etc.</li>
@@ -172,6 +175,7 @@ function Resume() {
           <div style={styles.jobInfo}>
             <div>
               <h3 style={styles.jobTitle}>RestStar REST API (Full Stack)</h3>
+              <p style={styles.jobLocation}><strong>Date: </strong>Oct 2024</p>
               <ul style={styles.list}>
                 <li>Built a Resturant Point of Sales system to create orders, assign them to customers, and create invoices.</li>
                 <li>Implemented the entire login system to allow CRUD operations on the user list and user validation.</li>

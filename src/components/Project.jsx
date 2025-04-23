@@ -6,14 +6,11 @@ const Projects = () => {
     { title: 'Kanban', description: 'Assign tasks to team members', link: 'https://drive.google.com/file/d/1uUYoCkvQMl_81y2u6XSCweuME_0ZGSY5/view?usp=drive_link' },
     { title: 'Vinyl Vault', description: 'Music search with comment feature', link: 'https://drive.google.com/file/d/15bT9D5DmGOhhTz6WVB8dqGGuPgBPXt4o/view?usp=drive_link' },
     { title: 'RestStar', description: 'Restaurant POS system with invoice maker', link: 'https://drive.google.com/file/d/19qu7exByRSlCb__17xZSl8jf8jvkr99h/view?usp=drive_link' },
-    // Add more projects here
   ];
 
-  // States to track hover effects for each card and button
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const [hoveredButtonIndex, setHoveredButtonIndex] = useState(null);
 
-  // Inline styles for the components
   const containerStyle = {
     padding: '40px',
     textAlign: 'center',

@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 
 
-// Object to hold styles
 const styles = {
   card: {
     display: 'flex',
@@ -42,7 +41,6 @@ function Navbar() {
     console.log(`${buttonName} clicked!`);
   };
 
-  // Handle mouse hover events
   const handleMouseEnter = (buttonName) => {
     setHoveredButton(buttonName);
   };
