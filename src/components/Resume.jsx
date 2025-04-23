@@ -79,7 +79,7 @@ function Resume() {
   return (
     <div>
       <Navbar />
-      
+
       <div style={styles.resumeContainer}>
         <div style={styles.header}>
           <h1>Peter Daniel Ortiz</h1>
@@ -123,9 +123,67 @@ function Resume() {
         <p style={styles.paragraph}>Associates of Arts, Chaffey College (2023)</p>
 
         <h2 style={styles.sectionTitle}>Projects</h2>
-        <p style={styles.paragraph}></p>
 
-        <h2 style={styles.sectionTitle}>Work History</h2>
+        <div style={styles.jobContainer}>
+          <div style={styles.jobInfo}>
+            <div>
+              <h3 style={styles.jobTitle}>Weather Dashboard REST API (Back-End)</h3>
+              <ul style={styles.list}>
+                <li>Built a REST API that can show you a city's weather forecast.</li>
+                <li>Used openweathermap.org API key to access weather forecast information.</li>
+                <li>Used GitHub respository to progress throughout the project.</li>
+                <li>Used: Typescript, REST API</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div style={styles.jobContainer}>
+          <div style={styles.jobInfo}>
+            <div>
+              <h3 style={styles.jobTitle}>Kanban REST API (Back-End) </h3>
+              <ul style={styles.list}>
+                <li>Built a REST API that can assign task to team members in Todo, In Progress, and Done catorgories.</li>
+                <li>Implemented the entire login system to allow CRUD operations on the user list and user validation.</li>
+                <li>Used GitHub respository to progress throughout the project.</li>
+                <li>Used: Typescript, REST API</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div style={styles.jobContainer}>
+          <div style={styles.jobInfo}>
+            <div>
+              <h3 style={styles.jobTitle}>Vinyl Vault GraphQL API (Full-Stack)</h3>
+              <ul style={styles.list}>
+                <li>Built a program that can search through the seeded data to find music and comment on songs.</li>
+                <li>Led a team of 4: organized meetings, delegated tasks, helped teammates debug, etc.</li>
+                <li>Implemented the entire login system to allow CRUD operations on the user list and user validation.</li>
+                <li>Created fully responsive home page with search bar and profile page that displays user comments.</li>
+                <li>Designed the overall website concept, layout & deployed on Render.</li>
+                <li>Used: Javascript XML, JSON, Bootstrap</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div style={styles.jobContainer}>
+          <div style={styles.jobInfo}>
+            <div>
+              <h3 style={styles.jobTitle}>RestStar REST API (Full Stack)</h3>
+              <ul style={styles.list}>
+                <li>Built a Resturant Point of Sales system to create orders, assign them to customers, and create invoices.</li>
+                <li>Implemented the entire login system to allow CRUD operations on the user list and user validation.</li>
+                <li>Led a team of 4: organized meetings, delegated tasks, helped teammates debug, etc.</li>
+                <li>Designed the overall website concept, layout & deployed on Render.</li>
+                <li>Used: JavaScript, HTML, Bootstrap</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <h2 style={styles.sectionTitle}>Management Work History</h2>
 
         <div style={styles.jobContainer}>
           <div style={styles.jobInfo}>
@@ -143,50 +201,13 @@ function Resume() {
                 <li>Managed employee breaks and shift rotations, optimizing team efficiency and maintaining high service standards during peak hours.</li>
                 <li>Operated ovens to cook food to specification, maintaining consistency and quality.</li>
                 <li>Delivered exceptional customer service, handling customer inquiries, complaints, and feedback in a professional manner.</li>
+                <li>Performed end-of-day cash drops and organized funds for secure bank deposits, ensuring accuracy and accountability.</li>
+                <li>Conducted thorough inventory audits to ensure stock accuracy and support efficient inventory management processes.</li>
               </ul>
             </div>
           </div>
         </div>
 
-        <div style={styles.jobContainer}>
-          <div style={styles.jobInfo}>
-            <img
-              src="https://media.giphy.com/avatars/YaamavaSocial/rKBjwA3oXOvz.jpg"
-              alt="Yaamava Resort & Casino"
-              style={styles.jobImage}
-            />
-            <div>
-              <h3 style={styles.jobTitle}>Barista/Cook - Yaamava Resort & Casino</h3>
-              <p style={styles.jobLocation}><strong>Location:</strong> Highland, CA | <strong>Duration:</strong> July 2021 to March 2022</p>
-              <ul style={styles.list}>
-                <li>Provided exceptional customer service as a cashier, efficiently processing transactions and managing customer orders.</li>
-                <li>Specialized in crafting high-quality coffee beverages, including Starbucks-style drinks, adhering to company standards for taste and presentation.</li>
-                <li>Prepared and baked a variety of pastries, ensuring freshness and quality while meeting customer demand.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div style={styles.jobContainer}>
-          <div style={styles.jobInfo}>
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrqLQe-R1uiUevhjkir4wxkTUywQs4_shsfg&s"
-              alt="Monaco’s Pizza"
-              style={styles.jobImage}
-            />
-            <div>
-              <h3 style={styles.jobTitle}>Cook - Monaco’s Pizza</h3>
-              <p style={styles.jobLocation}><strong>Location:</strong> Rancho Cucamonga, CA | <strong>Duration:</strong> November 2020 to March 2021</p>
-              <ul style={styles.list}>
-                <li>Prepared fresh sauces and pasta dishes from scratch, ensuring consistent quality and flavor.</li>
-                <li>Operated stove, fryer, and pizza oven, efficiently cooking and assembling dishes in a fast-paced environment.</li>
-                <li>Handcrafted pizzas from scratch, including dough preparation, toppings, and baking, ensuring a high-quality product.</li>
-                <li>Managed inventory, ordered supplies, and prepped ingredients to maintain smooth kitchen operations.</li>
-                <li>Maintained strict adherence to health and sanitation standards, ensuring a clean and safe kitchen environment.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
 
         <div style={styles.jobContainer}>
           <div style={styles.jobInfo}>
@@ -196,38 +217,20 @@ function Resume() {
               style={styles.jobImage}
             />
             <div>
-              <h3 style={styles.jobTitle}>Sales Associate - Staples</h3>
+              <h3 style={styles.jobTitle}>Shift Leader/Manager - Staples</h3>
               <p style={styles.jobLocation}><strong>Location:</strong> Goleta, CA | <strong>Duration:</strong> October 2017 to January 2019</p>
               <ul style={styles.list}>
-                <li>Greeted customers upon arrival, provided personalized assistance, and guided them to desired products, enhancing overall customer satisfaction.</li>
-                <li>Restocked shelves and organized inventory to ensure product availability and a well-maintained store environment.</li>
-                <li>Assisted customers with online orders, ensuring accurate order placement and efficient service.</li>
+                <li>Assisted customers in establishing personal and business lines of credit tailored to their financial needs.</li>
+                <li>Delivered personalized support to personal and business credit partners, enhancing customer satisfaction and strengthening long-term relationships.</li>
+                <li>Ensured accurate online order placement and fast, reliable service for all customers..</li>
                 <li>Managed inventory organization, ensuring items were easy to locate and accessible for both customers and staff.</li>
-                <li>Operated equipment such as a cardboard baler and pallet jack to manage inventory and store organization.</li>
+                <li>Performed detailed inventory audits and successfully located and reconciled lost inventory to support accurate stock management.</li>
+                <li>Operated equipment safely and trained team members on proper usage and safety protocols.</li>
               </ul>
             </div>
           </div>
         </div>
 
-        <div style={styles.jobContainer}>
-          <div style={styles.jobInfo}>
-            <img
-              src="https://logos-world.net/wp-content/uploads/2023/01/Subway-Logo.jpg"
-              alt="Subway"
-              style={styles.jobImage}
-            />
-            <div>
-              <h3 style={styles.jobTitle}>Subway Sandwich Artist - Subway</h3>
-              <p style={styles.jobLocation}><strong>Location:</strong> Rancho Cucamonga, CA | <strong>Duration:</strong> November 2015 to October 2016</p>
-              <ul style={styles.list}>
-                <li>Greeted and assisted customers with their orders, providing excellent customer service in a fast-paced environment.</li>
-                <li>Accurately noted customer orders and prepared sandwiches, beverages, and sides in a timely and efficient manner.</li>
-                <li>Prepared and restocked fresh vegetables, meats, and bread daily, ensuring high-quality ingredients for customer orders.</li>
-                <li>Performed cashiering duties, processing transactions and handling cash while maintaining accuracy.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
       </div>
 
       <Footer />

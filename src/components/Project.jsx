@@ -2,12 +2,10 @@ import React, { useState } from 'react';
 
 const Projects = () => {
   const projectList = [
-    { title: 'Book Search', description: 'Search for books', link: 'https://github.com/ddan25/bookSearch' },
-    { title: 'Candidate Search', description: 'Search github for candidates', link: 'https://github.com/ddan25/candidateSearch' },
-    { title: 'Weather Dashboard', description: 'Look up the weather in your city', link: 'https://github.com/ddan25/Weather-Dashboard' },
-    { title: 'Kanban', description: 'Assign tasks to team members and mark as in progress or completed', link: 'https://github.com/ddan25/kanban' },
-    { title: 'Vinyl Vault', description: 'Music search and comment', link: 'https://drive.google.com/file/d/15bT9D5DmGOhhTz6WVB8dqGGuPgBPXt4o/view?usp=drive_link' },
-    { title: 'RestStar', description: 'Restaurant POS system with invoice', link: 'https://drive.google.com/file/d/19qu7exByRSlCb__17xZSl8jf8jvkr99h/view?usp=drive_link' },
+    { title: 'Weather Dashboard', description: 'Look up the weather in your city', link: 'https://drive.google.com/file/d/13rDr2JsqVUIzgy2vW-FTRFxMyk00ZNfj/view?usp=drive_link' },
+    { title: 'Kanban', description: 'Assign tasks to team members', link: 'https://drive.google.com/file/d/1uUYoCkvQMl_81y2u6XSCweuME_0ZGSY5/view?usp=drive_link' },
+    { title: 'Vinyl Vault', description: 'Music search with comment feature', link: 'https://drive.google.com/file/d/15bT9D5DmGOhhTz6WVB8dqGGuPgBPXt4o/view?usp=drive_link' },
+    { title: 'RestStar', description: 'Restaurant POS system with invoice maker', link: 'https://drive.google.com/file/d/19qu7exByRSlCb__17xZSl8jf8jvkr99h/view?usp=drive_link' },
     // Add more projects here
   ];
 
