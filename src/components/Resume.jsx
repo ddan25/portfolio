@@ -86,9 +86,9 @@ const styles = {
   techStyles: {
     backgroundColor: '#f5f5f5',
     border: '1px solid #d1d9e6',
-    borderRadius: '6px',
-    padding: '6px 10px',
-    marginTop: '10px',
+    borderRadius: '5px',
+    padding: '5px 5px',
+    marginTop: '5px',
     color: '#2c3e50',
     fontSize: '14px',
     fontStyle: 'italic',
