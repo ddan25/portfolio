@@ -214,7 +214,7 @@ function Resume() {
         <div style={styles.jobContainer}>
           <div style={styles.jobInfo}>
             <div>
-              <h3 style={styles.jobTitle}>RestStar (Full Stack)</h3>
+              <h3 style={styles.jobTitle}>RestStar (Full-Stack)</h3>
               <ul style={styles.list}>
                 <li>Built a Resturant Point of Sales system to create orders, assign them to customers, and create invoices.</li>
                 <li>Implemented the entire login system to allow <strong>CRUD</strong> operations on the user list and user validation.</li>
