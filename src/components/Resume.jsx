@@ -85,6 +85,7 @@ function Resume() {
           <h1>Peter Daniel Ortiz</h1>
           <p>Email: peterortiz97@yahoo.com</p>
           <p>909-919-6313</p>
+          <p>Portfolio: https://portfolio-gs2l.onrender.com</p>
         </div>
 
         <h2 style={styles.sectionTitle}>Summary</h2>
