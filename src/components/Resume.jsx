@@ -1,6 +1,9 @@
 import React from "react";
 import Navbar from './Navbar';
 import Footer from './Footer';
+import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaDatabase, FaGitAlt, FaJsSquare } from 'react-icons/fa';
+import { SiMongodb, SiJquery, SiTypescript, SiBootstrap } from 'react-icons/si';
+
 
 const styles = {
   image: {
@@ -73,6 +76,30 @@ const styles = {
     width: '80px',
     height: 'auto',
   },
+  iconStyles: {
+    display: 'flex',
+    alignItems: 'center',
+    gap: '10px',
+    marginBottom: '8px',
+    fontSize: '18px',
+  },
+  techStyles: {
+    backgroundColor: '#f5f5f5',
+    border: '1px solid #d1d9e6',
+    borderRadius: '6px',
+    padding: '6px 10px',
+    marginTop: '10px',
+    color: '#2c3e50',
+    fontSize: '14px',
+    fontStyle: 'italic',
+    display: 'inline-block',
+    boxShadow: '0 1px 3px rgba(0,0,0,0.1)'
+  },
+  techContainer: {
+    display: 'flex',
+    gap: '10px',
+    flexWrap: 'wrap'
+  },
 };
 
 function Resume() {
@@ -105,18 +132,19 @@ function Resume() {
         </ul>
 
         <h2 style={styles.sectionTitle}>Skills</h2>
-        <ul style={styles.list}>
-          <li>React</li>
-          <li>Node.js</li>
-          <li>Express</li>
-          <li>JavaScript</li>
-          <li>jQuery</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>MongoDB</li>
-          <li>SQL</li>
-          <li>NoSQL</li>
+        <ul style={{ listStyleType: 'none', paddingLeft: 0 }}>
+          <li style={styles.iconStyles}><FaReact color="#61DBFB" /> React</li>
+          <li style={styles.iconStyles}><FaNodeJs color="#3C873A" /> Node.js</li>
+          <li style={styles.iconStyles}><FaJsSquare color="#F0DB4F" /> JavaScript</li>
+          <li style={styles.iconStyles}><SiJquery color="#0769AD" /> jQuery</li>
+          <li style={styles.iconStyles}><FaHtml5 color="#E44D26" /> HTML</li>
+          <li style={styles.iconStyles}><FaCss3Alt color="#264de4" /> CSS</li>
+          <li style={styles.iconStyles}><SiMongodb color="#4DB33D" /> MongoDB</li>
+          <li style={styles.iconStyles}><FaDatabase color="#00758F" /> SQL</li>
+          <li style={styles.iconStyles}><SiTypescript color="#007acc" /> TypeScript</li>
         </ul>
+
+
 
         <h2 style={styles.sectionTitle}>Education</h2>
         <p style={styles.paragraph}>Software Development Boot Camp, University of California, Irvine (2024)</p>
@@ -128,13 +156,16 @@ function Resume() {
         <div style={styles.jobContainer}>
           <div style={styles.jobInfo}>
             <div>
-              <h3 style={styles.jobTitle}>Weather Dashboard REST API (Back-End)</h3>
+              <h3 style={styles.jobTitle}>Weather Dashboard (Back-End)</h3>
               <p style={styles.jobLocation}><strong>Date: </strong>Nov 2024</p>
               <ul style={styles.list}>
                 <li>Built a REST API that can show you a city's weather forecast.</li>
                 <li>Used openweathermap.org API key to access weather forecast information.</li>
                 <li>Used GitHub respository to progress throughout the project.</li>
-                <li>Used: Typescript, REST API</li>
+              </ul>
+              <ul style={styles.techContainer}>
+                <li style={styles.techStyles}><SiTypescript size={18} color="#007acc" /></li>
+                <li style={styles.techStyles}>REST API</li>
               </ul>
             </div>
           </div>
@@ -143,13 +174,16 @@ function Resume() {
         <div style={styles.jobContainer}>
           <div style={styles.jobInfo}>
             <div>
-              <h3 style={styles.jobTitle}>Kanban REST API (Back-End) </h3>
+              <h3 style={styles.jobTitle}>Kanban (Back-End) </h3>
               <p style={styles.jobLocation}><strong>Date: </strong>Oct 2024</p>
               <ul style={styles.list}>
                 <li>Built a REST API that can assign task to team members in Todo, In Progress, and Done catorgories.</li>
                 <li>Implemented the entire login system to allow CRUD operations on the user list and user validation.</li>
                 <li>Used GitHub respository to progress throughout the project.</li>
-                <li>Used: Typescript, REST API</li>
+              </ul>
+              <ul style={styles.techContainer}>
+                <li style={styles.techStyles}><SiTypescript size={18} color="#007acc" /></li>
+                <li style={styles.techStyles}>REST API</li>
               </ul>
             </div>
           </div>
@@ -158,7 +192,7 @@ function Resume() {
         <div style={styles.jobContainer}>
           <div style={styles.jobInfo}>
             <div>
-              <h3 style={styles.jobTitle}>Vinyl Vault GraphQL API (Full-Stack)</h3>
+              <h3 style={styles.jobTitle}>Vinyl Vault (Full-Stack)</h3>
               <p style={styles.jobLocation}><strong>Date: </strong>Nov 2024</p>
               <ul style={styles.list}>
                 <li>Built a program that can search through the seeded data to find music and comment on songs.</li>
@@ -166,7 +200,11 @@ function Resume() {
                 <li>Implemented the entire login system to allow CRUD operations on the user list and user validation.</li>
                 <li>Created fully responsive home page with search bar and profile page that displays user comments.</li>
                 <li>Designed the overall website concept, layout & deployed on Render.</li>
-                <li>Used: Javascript XML, JSON, Bootstrap</li>
+              </ul>
+              <ul style={styles.techContainer}>
+                <li style={styles.techStyles}><FaJsSquare size={18} color="#F0DB4F" /></li>
+                <li style={styles.techStyles}><SiBootstrap size={18} color="#7952B3" /></li>
+                <li style={styles.techStyles}>GraphQL API</li>
               </ul>
             </div>
           </div>
@@ -175,7 +213,7 @@ function Resume() {
         <div style={styles.jobContainer}>
           <div style={styles.jobInfo}>
             <div>
-              <h3 style={styles.jobTitle}>RestStar REST API (Full Stack)</h3>
+              <h3 style={styles.jobTitle}>RestStar (Full Stack)</h3>
               <p style={styles.jobLocation}><strong>Date: </strong>Oct 2024</p>
               <ul style={styles.list}>
                 <li>Built a Resturant Point of Sales system to create orders, assign them to customers, and create invoices.</li>
@@ -183,6 +221,12 @@ function Resume() {
                 <li>Led a team of 4: organized meetings, delegated tasks, helped teammates debug, etc.</li>
                 <li>Designed the overall website concept, layout & deployed on Render.</li>
                 <li>Used: JavaScript, HTML, Bootstrap</li>
+              </ul>
+              <ul style={styles.techContainer}>
+                <li style={styles.techStyles}><FaJsSquare size={18} color="#F0DB4F" /></li>
+                <li style={styles.techStyles}><FaHtml5 size={18} color="#E44D26" /></li>
+                <li style={styles.techStyles}><SiBootstrap size={18} color="#7952B3" /></li>
+                <li style={styles.techStyles}>REST API</li>
               </ul>
             </div>
           </div>
