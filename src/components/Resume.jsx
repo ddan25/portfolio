@@ -157,11 +157,11 @@ function Resume() {
           <div style={styles.jobInfo}>
             <div>
               <h3 style={styles.jobTitle}>Weather Dashboard (Back-End)</h3>
-              <p style={styles.jobLocation}><strong>Date: </strong>Nov 2024</p>
               <ul style={styles.list}>
-                <li>Built a REST API that can show you a city's weather forecast.</li>
-                <li>Used openweathermap.org API key to access weather forecast information.</li>
-                <li>Used GitHub respository to progress throughout the project.</li>
+                <li>Built a program that can show you a city's weather forecast.</li>
+                <li>Used openweathermap.org <strong>API key</strong> to access weather forecast information.</li>
+                <li>Used <strong>GitHub</strong> respository to progress throughout the project.</li>
+                <li><strong>https://github.com/ddan25/Weather-Dashboard</strong></li>
               </ul>
               <ul style={styles.techContainer}>
                 <li style={styles.techStyles}><SiTypescript size={18} color="#007acc" /></li>
@@ -175,11 +175,11 @@ function Resume() {
           <div style={styles.jobInfo}>
             <div>
               <h3 style={styles.jobTitle}>Kanban (Back-End) </h3>
-              <p style={styles.jobLocation}><strong>Date: </strong>Oct 2024</p>
               <ul style={styles.list}>
-                <li>Built a REST API that can assign task to team members in Todo, In Progress, and Done catorgories.</li>
-                <li>Implemented the entire login system to allow CRUD operations on the user list and user validation.</li>
-                <li>Used GitHub respository to progress throughout the project.</li>
+                <li>Built a program that can assign task to team members in Todo, In Progress, and Done catorgories.</li>
+                <li>Implemented the entire login system to allow <strong>CRUD</strong> operations on the user list and user validation.</li>
+                <li>Used <strong>GitHub</strong> respository to progress throughout the project.</li>
+                <li><strong>https://github.com/ddan25/kanban</strong></li>
               </ul>
               <ul style={styles.techContainer}>
                 <li style={styles.techStyles}><SiTypescript size={18} color="#007acc" /></li>
@@ -193,13 +193,14 @@ function Resume() {
           <div style={styles.jobInfo}>
             <div>
               <h3 style={styles.jobTitle}>Vinyl Vault (Full-Stack)</h3>
-              <p style={styles.jobLocation}><strong>Date: </strong>Nov 2024</p>
               <ul style={styles.list}>
                 <li>Built a program that can search through the seeded data to find music and comment on songs.</li>
                 <li>Led a team of 4: organized meetings, delegated tasks, helped teammates debug, etc.</li>
-                <li>Implemented the entire login system to allow CRUD operations on the user list and user validation.</li>
+                <li>Implemented the entire login system to allow <strong>CRUD</strong> operations on the user list and user validation.</li>
                 <li>Created fully responsive home page with search bar and profile page that displays user comments.</li>
-                <li>Designed the overall website concept, layout & deployed on Render.</li>
+                <li>Designed the overall website concept, layout & deployed on <strong>Render</strong>.</li>
+                <li>Used <strong>GitHub</strong> respository to progress throughout the project.</li>
+                <li><strong>https://github.com/larimae/vinyl-vault</strong></li>
               </ul>
               <ul style={styles.techContainer}>
                 <li style={styles.techStyles}><FaJsSquare size={18} color="#F0DB4F" /></li>
@@ -214,13 +215,13 @@ function Resume() {
           <div style={styles.jobInfo}>
             <div>
               <h3 style={styles.jobTitle}>RestStar (Full Stack)</h3>
-              <p style={styles.jobLocation}><strong>Date: </strong>Oct 2024</p>
               <ul style={styles.list}>
                 <li>Built a Resturant Point of Sales system to create orders, assign them to customers, and create invoices.</li>
-                <li>Implemented the entire login system to allow CRUD operations on the user list and user validation.</li>
+                <li>Implemented the entire login system to allow <strong>CRUD</strong> operations on the user list and user validation.</li>
                 <li>Led a team of 4: organized meetings, delegated tasks, helped teammates debug, etc.</li>
-                <li>Designed the overall website concept, layout & deployed on Render.</li>
-                <li>Used: JavaScript, HTML, Bootstrap</li>
+                <li>Designed the overall website concept, layout & deployed on <strong>Render</strong>.</li>
+                <li>Used <strong>GitHub</strong> respository to progress throughout the project.</li>
+                <li><strong>https://github.com/khorimoore/RestStar</strong></li>
               </ul>
               <ul style={styles.techContainer}>
                 <li style={styles.techStyles}><FaJsSquare size={18} color="#F0DB4F" /></li>
