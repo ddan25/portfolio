@@ -159,7 +159,7 @@ function Resume() {
               <ul style={styles.list}>
                 <li>Built a program that can show you a city's weather forecast.</li>
                 <li>Used openweathermap.org <strong>API key</strong> to access weather forecast information.</li>
-                <li>Used <strong>GitHub</strong> respository to progress throughout the project.</li>
+                <li>Used <strong>GitHub</strong> repository to progress throughout the project.</li>
                 <li><strong>https://github.com/ddan25/Weather-Dashboard</strong></li>
               </ul>
               <ul style={styles.techContainer}>
@@ -175,9 +175,9 @@ function Resume() {
             <div>
               <h3 style={styles.jobTitle}>Kanban (Back-End) </h3>
               <ul style={styles.list}>
-                <li>Built a program that can assign task to team members in Todo, In Progress, and Done catorgories.</li>
+                <li>Built a program that can assign task to team members in Todo, In Progress, and Done categories.</li>
                 <li>Implemented the entire login system to allow <strong>CRUD</strong> operations on the user list and user validation.</li>
-                <li>Used <strong>GitHub</strong> respository to progress throughout the project.</li>
+                <li>Used <strong>GitHub</strong> repository to progress throughout the project.</li>
                 <li><strong>https://github.com/ddan25/kanban</strong></li>
               </ul>
               <ul style={styles.techContainer}>
@@ -198,7 +198,7 @@ function Resume() {
                 <li>Implemented the entire login system to allow <strong>CRUD</strong> operations on the user list and user validation.</li>
                 <li>Created fully responsive home page with search bar and profile page that displays user comments.</li>
                 <li>Designed the overall website concept, layout & deployed on <strong>Render</strong>.</li>
-                <li>Used <strong>GitHub</strong> respository to progress throughout the project.</li>
+                <li>Used <strong>GitHub</strong> repository to progress throughout the project.</li>
                 <li><strong>https://github.com/larimae/vinyl-vault</strong></li>
               </ul>
               <ul style={styles.techContainer}>
@@ -215,11 +215,11 @@ function Resume() {
             <div>
               <h3 style={styles.jobTitle}>RestStar (Full-Stack)</h3>
               <ul style={styles.list}>
-                <li>Built a Resturant Point of Sales system to create orders, assign them to customers, and create invoices.</li>
+                <li>Built a Restaurant Point of Sales system to create orders, assign them to customers, and create invoices.</li>
                 <li>Implemented the entire login system to allow <strong>CRUD</strong> operations on the user list and user validation.</li>
                 <li>Led a team of 4: organized meetings, delegated tasks, helped teammates debug, etc.</li>
                 <li>Designed the overall website concept, layout & deployed on <strong>Render</strong>.</li>
-                <li>Used <strong>GitHub</strong> respository to progress throughout the project.</li>
+                <li>Used <strong>GitHub</strong> repository to progress throughout the project.</li>
                 <li><strong>https://github.com/khorimoore/RestStar</strong></li>
               </ul>
               <ul style={styles.techContainer}>
