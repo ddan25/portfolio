@@ -126,7 +126,6 @@ function Resume() {
               <li>Developed and maintained full-stack web applications using React, Node.js, and MongoDB, enhancing user experience and performance.</li>
               <li>Collaborated with a cross-functional team of developers to deliver high-quality products on schedule.</li>
               <li>Designed and implemented responsive user interfaces with HTML, CSS, and JavaScript, ensuring compatibility across multiple browsers and devices.</li>
-              <li>Optimized web applications for maximum speed and scalability.</li>
             </ul>
           </li>
         </ul>
